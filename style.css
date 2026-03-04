@@ -655,20 +655,19 @@ a:hover {
     }
 
     .nav-container {
-        flex-direction: column;
-        gap: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         padding: 0 1rem;
     }
 
     .nav-menu {
-        flex-direction: column;
-        gap: 0.75rem;
-        width: 100%;
-        text-align: center;
+        flex-direction: row;
+        gap: 1rem;
     }
 
     .nav-link {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         display: block;
     }
 
